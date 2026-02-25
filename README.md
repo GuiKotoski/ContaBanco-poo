@@ -27,11 +27,13 @@ O sistema roda no **console** e simula operações básicas de um banco.
 
 ---
 
-## Estrutura do projeto
-br.com.banco
-├─ app (Main / interação com o usuário)
-├─ domain (regras de negócio)
-└─ service (gerenciamento das contas)
+src/
+└── br/
+    └── com/
+        └── banco/
+            ├── app/        # Main, entrada e interação com o usuário
+            ├── domain/     # Entidades e regras de negócio
+            └── service/    # Serviços e lógica de aplicação
 
 ---
 
