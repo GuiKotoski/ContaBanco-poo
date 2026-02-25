@@ -1,6 +1,6 @@
 # ContaBanco-poo
 
-Projeto simples de **Banco Digital em Java**, desenvolvido para praticar **Programação Orientada a Objetos (POO)**.
+Projeto de **Banco Digital em Java**, desenvolvido como parte dos estudos de **Programação Orientada a Objetos (POO)** na **DIO (Digital Innovation One)**.
 
 O sistema roda no **console** e simula operações básicas de um banco.
 
@@ -8,40 +8,39 @@ O sistema roda no **console** e simula operações básicas de um banco.
 
 ## Funcionalidades
 
-- Criar conta (Corrente ou Poupança)
-- Depositar
-- Sacar
+- Criar conta bancária (Corrente ou Poupança)
+- Depositar valor
+- Sacar valor
 - Transferir entre contas
 - Imprimir extrato
 - Listar contas cadastradas
 
 ---
 
-## Conceitos utilizados
+## Conceitos aplicados
 
 - Interface (`IOperacoesConta`)
 - Classe abstrata (`Conta`)
 - Herança e polimorfismo
 - Encapsulamento
-- Organização em pacotes (`app`, `domain`, `service`)
+- Separação de responsabilidades (pacotes)
 
 ---
 
 ## Estrutura do projeto
 br.com.banco
-├─ app
-├─ domain
-└─ service
-
+├─ app (Main / interação com o usuário)
+├─ domain (regras de negócio)
+└─ service (gerenciamento das contas)
 
 ---
 
 ## Como executar
 
-1. Abra o projeto no IntelliJ
+1. Abra o projeto no **IntelliJ IDEA**
 2. Execute a classe `Main`
-3. Use o menu no console
+3. Utilize o menu no console
 
 ---
 
-Projeto desenvolvido para estudo de Java e POO.
+Projeto desenvolvido para fins de **aprendizado em Java e POO**, seguindo o desafio proposto pela **DIO**.
