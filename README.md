@@ -31,9 +31,9 @@ src/
 └── br/
     └── com/
         └── banco/
-            ├── app/        # Main, entrada e interação com o usuário
-            ├── domain/     # Entidades e regras de negócio
-            └── service/    # Serviços e lógica de aplicação
+            ├── app/
+            ├── domain/
+            └── service/
 
 ---
 
