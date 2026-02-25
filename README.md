@@ -27,13 +27,9 @@ O sistema roda no **console** e simula operações básicas de um banco.
 
 ---
 
-src/
-└── br/
-    └── com/
-        └── banco/
-            ├── app/
-            ├── domain/
-            └── service/
+app     → Main, entrada e interação com o usuário  
+domain  → Entidades e regras de negócio  
+service → Serviços e lógica de aplicação
 
 ---
 
